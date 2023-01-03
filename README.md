@@ -20,7 +20,7 @@ __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
 2) Se placer dans le dossier Defi-IA-bedbugs: `cd Defi-IA-bedbugs`
 3) Faire un wget pour obtenir les poids d'un modèle déjà entraîné: 
    `wget "https://drive.google.com/uc?export=download&id=19Ugxfz2wGLvuba6j--rRrMt0OhPOJP2N" -O ./models/2000_XGboost_target_encoding_12-11.sav` 
-4) Créer une image docker nommée image2: `sudo docker build -t image1 .`
+4) Créer une image docker nommée image2: `sudo docker build -t image1 ./utilities`
 5) Créer un conteneur  docker nommé conteneur1 avec le volume du git mount à l'intérieur: `sudo docker run -it --name  container1 -v "$(pwd)":/mnt image1`
 6) Vous devez vous trouver dans conteneur1. Placez-vous dans le bons dossier dans conteneur1: `cd mnt/utilities/`
 
