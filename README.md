@@ -3,14 +3,14 @@
 ## Structure de nos fichiers
 
 **Defi-IA-bedbugs /</br>
-&emsp; &emsp;├─data/</br>
+&emsp; &emsp;├─data (jeux de données)</br>
 &emsp; &emsp; &emsp; &emsp;├─ all_our_requests_done.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ features_hotels.csv</br>
 &emsp; &emsp; &emsp; &emsp;├─ pricing_requests_done.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ soumission.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ test_set_cleaned_addedFeatures.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ test_set.csv</br>
-&emsp; &emsp;├─dictionnary/</br>
+&emsp; &emsp;├─dictionnary(poids pour le target et frequency encoding)</br>
 &emsp; &emsp;&emsp; &emsp; ├─ children_policy</br>
 &emsp; &emsp;&emsp; &emsp; ├─ mobile</br>
 &emsp; &emsp;&emsp; &emsp; ├─ parking</br>
@@ -20,8 +20,8 @@
 &emsp; &emsp;&emsp; &emsp; ├─ __init__.py</br>
 &emsp; &emsp;├─ notebook</br>
 &emsp; &emsp;&emsp; &emsp; ├─ DefiIA_interpretabilite_modeles.ipynb</br>
-&emsp; &emsp;├── README.md</br>
-&emsp; &emsp;├── utilities</br>
+&emsp; &emsp;├─ README.md</br>
+&emsp; &emsp;├─ utilities(toutes les fonctions en .py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ adversarial_validation.py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ data_preprocessing.py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ Dockerfile</br>
