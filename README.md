@@ -33,7 +33,6 @@
 
 
 ## __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
-***
 
 ### Etapes à réaliser uniquement si vous utilisez Gcloud 
 0) Avoir au préalable créé une machine virtuelle sur gcloud (instance de VM)
