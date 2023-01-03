@@ -32,7 +32,7 @@
 &emsp; &emsp;&emsp; &emsp; ├─ set_path.py**
 
 
-__Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
+## __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
 ***
 
 ### Etapes à réaliser uniquement si vous utilisez Gcloud 
