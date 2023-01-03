@@ -22,14 +22,14 @@
 &emsp; &emsp;&emsp; &emsp; ├─ DefiIA_interpretabilite_modeles.ipynb</br>
 &emsp; &emsp;├── README.md</br>
 &emsp; &emsp;├── utilities</br>
-&emsp; &emsp;&emsp; &emsp; ├── adversarial_validation.py</br>
-&emsp; &emsp;&emsp; &emsp; ├── data_preprocessing.py</br>
-&emsp; &emsp;&emsp; &emsp; ├── Dockerfile</br>
-&emsp; &emsp;&emsp; &emsp; ├── flagged</br>
-&emsp; &emsp;&emsp; &emsp; ├── generation_submission.py</br>
-&emsp; &emsp;&emsp; &emsp; ├── gradio_defiIA.py</br>
-&emsp; &emsp;&emsp; &emsp; ├── models.py</br>
-&emsp; &emsp;&emsp; &emsp; ├── set_path.py
+&emsp; &emsp;&emsp; &emsp; ├─ adversarial_validation.py</br>
+&emsp; &emsp;&emsp; &emsp; ├─ data_preprocessing.py</br>
+&emsp; &emsp;&emsp; &emsp; ├─ Dockerfile</br>
+&emsp; &emsp;&emsp; &emsp; ├─ flagged</br>
+&emsp; &emsp;&emsp; &emsp; ├─ generation_submission.py</br>
+&emsp; &emsp;&emsp; &emsp; ├─ gradio_defiIA.py</br>
+&emsp; &emsp;&emsp; &emsp; ├─ models.py</br>
+&emsp; &emsp;&emsp; &emsp; ├─ set_path.py**
 
 
 __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
