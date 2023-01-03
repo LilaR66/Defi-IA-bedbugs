@@ -12,7 +12,7 @@ __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
    Ceci ouvre un temrminal gcloud à distance, ce qui vous permettra de navigueur sur votre machine gcloud à distance.
 6) Ouvrir le terminal gcloud à distance et suivre les instructions suivantes.
 
-Note: Ne pas oublier de désactiver la machine virtuelle gcloud à la fin des manipulations.
+**Note:** Ne pas oublier de désactiver la machine virtuelle gcloud à la fin des manipulations.
 
  ### Etapes à réaliser dans tous les cas
  
