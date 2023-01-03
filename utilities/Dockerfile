@@ -26,6 +26,7 @@ RUN pip install scipy==1.9.1
 RUN pip install pickle5
 RUN pip install xgboost==1.0.1
 RUN pip install catboost
+RUN pip install lightgbm
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
