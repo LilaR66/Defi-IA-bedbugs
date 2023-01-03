@@ -26,13 +26,13 @@ __Commandes à suivre pour faire fonctionner Defi-IA-bedbugs__
 
 7) Il y a à présent 2 possibilités: \
     7.1) Vous voulez entraîner votre modele puis lancer le gradio: \
-        a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help` \ 
+        a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help`\ 
         b) appeler: `python3 models.py --train 1 --name 0 --dataset "pricing_requests_done.csv" --adversarial False --hotelid True --name_save "modele_run_docker.sav"` \
-        c) utiliser le modèle que vous venez d'apprendre pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_run_docker.sav"` \
-        d) copier le lien public et l'ouvrir dans un navigateur  \
-    7.2) Vous voulez utiliser les poids d'un modèle déjà appris et lancer le gradio: \
-        a) utiliser le modèle déjà appris pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_best.sav"` \
-        b) copier le lien public et l'ouvrir dans un navigateur \
+        c) utiliser le modèle que vous venez d'apprendre pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_run_docker.sav"`\
+        d) copier le lien public et l'ouvrir dans un navigateur \
+    7.2) Vous voulez utiliser les poids d'un modèle déjà appris et lancer le gradio:\
+        a) utiliser le modèle déjà appris pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_best.sav"`\
+        b) copier le lien public et l'ouvrir dans un navigateur\
 
 
  ### Etapes à réaliser à la fin des manipulations
