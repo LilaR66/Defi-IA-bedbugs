@@ -14,7 +14,7 @@ files, they will be referenced with the same path
 '''
 
 # Paths 
-PATH = /mnt 
+PATH = '/mnt'
 PATH_CODE = PATH + '/utilities' #path to code
 PATH_DATA = PATH + '/data' #path to data
 PATH_MODELS = PATH + '/models' #path to trained models
