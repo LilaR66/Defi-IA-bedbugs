@@ -137,8 +137,7 @@ def predict_price(stock_g,city_g,date_g,language_g,mobile_g, request_nb_g,group_
 
 if __name__=='__main__':
    
-    css_code='body{background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alibabuy.com%2Factualite%2Fvoyage%2F14555-pires-hotels-monde-restent-pourtant-toujours-ouverts.html&psig=AOvVaw285vM0jF9G7ADIk7IXCrKo&ust=1672931030214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLizifCXrvwCFQAAAAAdAAAAABAE");}'
-
+    
     
     gr.Interface(fn=predict_price, 
                 inputs=[
@@ -161,4 +160,5 @@ if __name__=='__main__':
                 outputs="text", #sortie de l'application (ici un int)
                 live=True,
                 description="Prédit le prix d'une nuit à l'hotel donnée par l'application de voyage",
+                css="div {background-image: url('file=https://www.alibabuy.com/photos/library/1500/13102.jpg')}"
                 ).launch(debug=True, share=True);
