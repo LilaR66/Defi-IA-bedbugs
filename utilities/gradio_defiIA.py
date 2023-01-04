@@ -137,6 +137,8 @@ def predict_price(stock_g,city_g,date_g,language_g,mobile_g, request_nb_g,group_
 
 if __name__=='__main__':
    
+    css_code='body{background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alibabuy.com%2Factualite%2Fvoyage%2F14555-pires-hotels-monde-restent-pourtant-toujours-ouverts.html&psig=AOvVaw285vM0jF9G7ADIk7IXCrKo&ust=1672931030214000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLizifCXrvwCFQAAAAAdAAAAABAE");}'
+
     
     gr.Interface(fn=predict_price, 
                 inputs=[
