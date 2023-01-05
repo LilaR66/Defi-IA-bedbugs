@@ -52,7 +52,7 @@
 2) Se placer dans le dossier Defi-IA-bedbugs: `cd Defi-IA-bedbugs`
 3) Faire un wget pour obtenir les poids d'un modèle déjà entraîné: 
    `wget "https://drive.google.com/uc?export=download&id=1-YsnmTpNOqYNGRhsjzBnyllh-Pyf6AVG" -O ./models/modele_best.sav` #attention c'est actuellement le modele xgbm 
-4) Créer une image docker nommée image2: `sudo docker build -t image1 ./utilities`
+4) Créer une image docker nommée image1: `sudo docker build -t image1 ./utilities`
 5) Créer un conteneur  docker nommé conteneur1 avec le volume du git mount à l'intérieur: `sudo docker run -it --name  container1 -v "$(pwd)":/mnt image1`
 6) Vous devez vous trouver dans conteneur1. Placez-vous dans le bons dossier dans conteneur1: `cd mnt/utilities/`
 
