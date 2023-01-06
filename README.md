@@ -58,7 +58,7 @@
 
 7) Il y a à présent 2 possibilités: \
   &emsp;  **7.1)** Vous voulez entraîner votre modele puis lancer le gradio: \
-  &emsp; &emsp;      a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help` \ 
+  &emsp; &emsp;      a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help` </br>
   &emsp; &emsp;      b) appeler: `python3 models.py --train 1 --name 0 --dataset "pricing_requests_done.csv" --adversarial 0 --hotelid 1 --name_save "modele_run_docker.sav"` \
   &emsp; &emsp;      c) utiliser le modèle que vous venez d'apprendre pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_run_docker.sav"` \
   &emsp; &emsp;      d) copier le lien public et l'ouvrir dans un navigateur \
