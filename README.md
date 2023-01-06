@@ -9,7 +9,7 @@
 &emsp; &emsp; &emsp; &emsp;├─ pricing_requests_done.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ soumission.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ test_set_cleaned_addedFeatures.csv</br>
-&emsp; &emsp;&emsp; &emsp; ├─ test_set.csv</br>
+&emsp;&emsp; &emsp;&emsp; &emsp; ├─ test_set.csv</br>
 &emsp; &emsp;├─dictionnary(poids pour le target et frequency encoding)</br>
 &emsp; &emsp;&emsp; &emsp; ├─ children_policy</br>
 &emsp; &emsp;&emsp; &emsp; ├─ mobile</br>
@@ -57,14 +57,14 @@
 6) Vous devez vous trouver dans conteneur1. Placez-vous dans le bons dossier dans conteneur1: `cd mnt/utilities/`
 
 7) Il y a à présent 2 possibilités: \
-    7.1) Vous voulez entraîner votre modele puis lancer le gradio: \
-        a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help`\ 
-        b) appeler: `python3 models.py --train 1 --name 0 --dataset "pricing_requests_done.csv" --adversarial 0 --hotelid 1 --name_save "modele_run_docker.sav"` \
-        c) utiliser le modèle que vous venez d'apprendre pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_run_docker.sav"`\
-        d) copier le lien public et l'ouvrir dans un navigateur \
-    7.2) Vous voulez utiliser les poids d'un modèle déjà appris et lancer le gradio:\
-        a) utiliser le modèle déjà appris pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_best.sav"`\
-        b) copier le lien public et l'ouvrir dans un navigateur\
+  &emsp;  **7.1)** Vous voulez entraîner votre modele puis lancer le gradio: \
+  &emsp; &emsp;      a) pour obtenir l'aide pour les argument, appeler si besoin: `python3 models.py --help` \ 
+  &emsp; &emsp;      b) appeler: `python3 models.py --train 1 --name 0 --dataset "pricing_requests_done.csv" --adversarial 0 --hotelid 1 --name_save "modele_run_docker.sav"` \
+  &emsp; &emsp;      c) utiliser le modèle que vous venez d'apprendre pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_run_docker.sav"` \
+  &emsp; &emsp;      d) copier le lien public et l'ouvrir dans un navigateur \
+  &emsp;  **7.2)** Vous voulez utiliser les poids d'un modèle déjà appris et lancer le gradio:\
+  &emsp; &emsp;      a) utiliser le modèle déjà appris pour lancer le gradio: `python3 gradio_defiIA.py --model_name "modele_best.sav"`\
+  &emsp; &emsp;      b) copier le lien public et l'ouvrir dans un navigateur\
 
 
  ### Etapes à réaliser à la fin des manipulations
