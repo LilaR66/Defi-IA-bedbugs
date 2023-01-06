@@ -147,7 +147,7 @@ if __name__=='__main__':
                 gr.Slider(minimum=0,maximum=44, value=1, step=1, label="date"),
                 gr.Dropdown(['austrian', 'belgium', 'bulgarian', 'croatian', 'cypriot', 'czech', 'danish', 'dutch', 'estonian', 'finnish', 'french', 'german', 'greek', 'hungarian', 'irish', 'italian', 'latvian', 'lithuanian', 'luxembourgish', 'maltese', 'polish', 'portuguese', 'romanian', 'slovakian', 'slovene', 'spanish','swedish'], label="langage"),
                 gr.Checkbox(label="mobile?"), #case à cocher 
-                gr.Slider(minimum=0,maximum=4, value=1, step=1, label="nombre de fois que vous avez fait la requête"), #curseur de 1 et 1 
+                gr.Slider(minimum=1,maximum=4, value=1, step=1, label="nombre de fois que vous avez fait la requête"), #curseur de 1 et 1 
                 #gr.Textbox(value=1, label="request_number"), #case à remplir
                 gr.Dropdown(['Accar Hotels', 'Boss Western', 'Chillton Worldwide', 'Independant',
  'Morriott International', 'Yin Yang'], label="group"),
