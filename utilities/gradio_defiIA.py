@@ -160,5 +160,5 @@ if __name__=='__main__':
                 outputs="text", #sortie de l'application (ici un int)
                 live=True,
                 description="Prédit le prix d'une nuit à l'hotel donnée par l'application de voyage",
-                css="div {background-image: url('file=https://www.alibabuy.com/photos/library/1500/13102.jpg')}"
+                css="div {background-image: url('file=https://www.punaises-expert.com/wp-content/uploads/2020/04/une-seule-punaise-de-lit.jpg')}"
                 ).launch(debug=True, share=True);
