@@ -71,4 +71,8 @@ Vous trouverez la première version du git où nous avons travaillé durant ce s
 
  ### Etapes à réaliser à la fin des manipulations
 1) supprimer le container: `sudo docker container rm -f container1` 
-2) supprimer l'image : `sudo docker rmi image1 --force`
+2) supprimer l'image : `sudo docker rmi image1 --force
+
+## Résultats de nos modèles 
+
+
