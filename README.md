@@ -19,7 +19,7 @@
 &emsp; &emsp;├─ models (tous les poids des modèles sont enregistrés)</br>
 &emsp; &emsp;&emsp; &emsp; ├─ __init__.py</br>
 &emsp; &emsp;├─ notebook</br>
-&emsp; &emsp;&emsp; &emsp; ├─ DefiIA_interpretabilite_modeles.ipynb</br>
+&emsp; &emsp;&emsp; &emsp; ├─ Analysis.ipynb</br>
 &emsp; &emsp;├─ README.md</br>
 &emsp; &emsp;├─ utilities(toutes les fonctions en .py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ adversarial_validation.py</br>
@@ -51,7 +51,7 @@
 1) Télécharger le git sur votre machine (sur instance de VM ou sur l'ordinateur personel): `git clone https://github.com/LilaR66/Defi-IA-bedbugs`
 2) Se placer dans le dossier Defi-IA-bedbugs: `cd Defi-IA-bedbugs`
 3) Faire un wget pour obtenir les poids d'un modèle déjà entraîné: 
-   `wget "https://drive.google.com/uc?export=download&id=1PaO_wYNzTk518w8DC_2XDZdbWhEZQrim" -O ./models/modele_best.sav` #attention c'est actuellement le modele xgbm 
+   `wget "https://drive.google.com/uc?export=download&id=1PaO_wYNzTk518w8DC_2XDZdbWhEZQrim" -O ./models/modele_best.sav`  Il s'agit d'un modèle catboost
 4) Créer une image docker nommée image1: `sudo docker build -t image1 ./utilities`
 5) Créer un conteneur  docker nommé conteneur1 avec le volume du git mount à l'intérieur: `sudo docker run -it --name  container1 -v "$(pwd)":/mnt image1`
 6) Vous devez vous trouver dans conteneur1. Placez-vous dans le bons dossier dans conteneur1: `cd mnt/utilities/`
