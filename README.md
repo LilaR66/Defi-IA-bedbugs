@@ -75,4 +75,4 @@ Vous trouverez la première version du git où nous avons travaillé durant ce s
 
 ## Résultats de nos modèles 
 
-
+![](models/mse.png)
