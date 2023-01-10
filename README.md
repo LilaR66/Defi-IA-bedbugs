@@ -23,7 +23,7 @@ Vous trouverez la première version du git où nous avons travaillé durant ce s
 &emsp; &emsp;├─ notebook</br>
 &emsp; &emsp;&emsp; &emsp; ├─ Analysis.ipynb</br>
 &emsp; &emsp;├─ README.md</br>
-&emsp; &emsp;├─ utilities(toutes les fonctions en .py</br>
+&emsp; &emsp;├─ utilities (toutes les fonctions en .py)</br>
 &emsp; &emsp;&emsp; &emsp; ├─ adversarial_validation.py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ data_preprocessing.py</br>
 &emsp; &emsp;&emsp; &emsp; ├─ Dockerfile</br>
@@ -71,7 +71,7 @@ Vous trouverez la première version du git où nous avons travaillé durant ce s
 
  ### Etapes à réaliser à la fin des manipulations
 1) supprimer le container: `sudo docker container rm -f container1` 
-2) supprimer l'image : `sudo docker rmi image1 --force
+2) supprimer l'image : `sudo docker rmi image1 --force`
 
 ## Résultats de nos modèles 
 
