@@ -1,6 +1,6 @@
 # Defi-IA-bedbugs
 
-Vous trouverez la première version du git où nous avons travaillé durant ce semestre ici : ``https://github.com/leacamusat/Defi-IA-bedbugs``. Ce git présente les différents élements de rendu que vous avez demandés. 
+Vous trouverez la première version du git où nous avons travaillé durant ce semestre ici : ``https://github.com/leacamusat/Defi-IA-bedbugs``. Ce git présente les contributions de chaque personne du groupe tout au long du semestre ainsi que les différents élements de rendu que vous avez demandés. 
 
 ## Structure de nos fichiers
 
