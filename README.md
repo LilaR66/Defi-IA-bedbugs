@@ -11,7 +11,7 @@ Vous trouverez la première version du git où nous avons travaillé durant ce s
 &emsp; &emsp; &emsp; &emsp;├─ pricing_requests_done.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ soumission.csv</br>
 &emsp; &emsp;&emsp; &emsp; ├─ test_set_cleaned_addedFeatures.csv</br>
-&emsp;&emsp; &emsp;&emsp; &emsp; ├─ test_set.csv</br>
+&emsp;&emsp; &emsp;&emsp; ├─ test_set.csv</br>
 &emsp; &emsp;├─dictionnary(poids pour le target et frequency encoding)</br>
 &emsp; &emsp;&emsp; &emsp; ├─ children_policy</br>
 &emsp; &emsp;&emsp; &emsp; ├─ mobile</br>
